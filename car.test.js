@@ -1,4 +1,4 @@
-const {Car} = require('./car');
+const Car = require('./car');
 
 let nadiasCar; 
 
@@ -25,4 +25,4 @@ describe('accessing car properties', () => {
         actual = nadiasCar.engineType;
         expect(actual).toBe(expected);
     })
-})
+});
